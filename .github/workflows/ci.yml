@@ -28,3 +28,5 @@ jobs:
         run: |
           docker build -t kemir/myapp:${IMAGE_TAG} .
           docker push kemir/myapp:${IMAGE_TAG}
+        
+    # ujdcd
